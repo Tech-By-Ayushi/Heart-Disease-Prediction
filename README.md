@@ -17,20 +17,28 @@ A machine learning project that predicts the likelihood of heart disease using m
 - Created insightful visualizations to explore correlations and trends for feature selection.
 - Evaluated models using accuracy, precision, recall, and confusion matrix.
 
-## 📁 Dataset
 
-The dataset includes patient health metrics such as:
-- Age
-- Sex
-- Chest pain type
-- Resting blood pressure
-- Cholesterol levels
-- Fasting blood sugar
-- Maximum heart rate
-- Exercise-induced angina
-- ST depression, and more.
+### 🩺 Dataset Features
 
-*(Data source: UCI Heart Disease dataset or similar – include link if public)*
+The dataset includes the following medical attributes used to predict heart disease:
+
+- `age` – Age of the patient
+- `sex` – Gender (1 = male, 0 = female)
+- `cp` – Chest pain type (0 to 3)
+- `trestbps` – Resting blood pressure (in mm Hg)
+- `chol` – Serum cholesterol in mg/dl
+- `fbs` – Fasting blood sugar > 120 mg/dl (1 = true; 0 = false)
+- `restecg` – Resting electrocardiographic results (0 to 2)
+- `thalach` – Maximum heart rate achieved
+- `exang` – Exercise-induced angina (1 = yes; 0 = no)
+- `oldpeak` – ST depression induced by exercise relative to rest
+- `slope` – Slope of the peak exercise ST segment
+- `ca` – Number of major vessels (0–3) colored by fluoroscopy
+- `thal` – Thalassemia (1 = normal; 2 = fixed defect; 3 = reversible defect)
+- `target` – Diagnosis of heart disease (1 = presence; 0 = absence)
+
+> These features are used as inputs for training the machine learning model to predict the likelihood of heart disease.
+
 
 ## 🚀 How to Run
 
